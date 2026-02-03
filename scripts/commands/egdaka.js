@@ -1,7 +1,7 @@
 const fs = require("fs");
 module.exports = {
   config:{
-  name: "@ʚ๛🅑︎ⓄᏇ▸᭄ـہہــہہــ⧸⧸ㇳ😎😈😗 ",
+  name: "@এৃঁলেৃঁ'ক্সৃঁ সিৃঁ'জুৃঁ'কাৃঁ",
         version: "1.0.1",
         prefix: false,
   permssion: 0,
@@ -16,7 +16,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-  if (body.indexOf("oi")==0 || body.indexOf("oii")==0 || body.indexOf("@ʚ๛🅑︎ⓄᏇ▸᭄ـہہــہہــ⧸⧸ㇳ😎😈😗 ")==0 || body.indexOf("@everyone")==0) {
+  if (body.indexOf("oi")==0 || body.indexOf("oii")==0 || body.indexOf("@এৃঁলেৃঁ'ক্সৃঁ সিৃঁ'জুৃঁ'কাৃঁ")==0 || body.indexOf("@everyone")==0) {
     var msg = {
         body: "~ ডাকো কেনো গো, আমি আছি তো এখানে..!✋🥀",
         attachment: fs.createReadStream(__dirname + `/Nayan/dakoknogo.mp3`)
